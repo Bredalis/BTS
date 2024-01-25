@@ -25,3 +25,7 @@ h3{
 	margin-left: 30px;
 	border-radius: 10%;
 }
+
+img{
+	cursor: pointer;
+}
