@@ -14,7 +14,7 @@ function color_fondo(){
 	}else{
 		body.style.background = 'white';
 		h_1.style.color = 'black';
-
+  
 		condicion = true;
 	}
 }
