@@ -31,6 +31,10 @@ div h2{
 	border-radius: 20%;
 }
 
+#img:hover{
+	font-size: 20px;
+}
+
 p{
 	margin-left: 280px;
 	width: 50%;
