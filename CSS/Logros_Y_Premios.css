@@ -1,0 +1,38 @@
+
+* {
+	text-align: center;
+}
+
+nav {	
+	background: #e0c3fc;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+div h1 {
+	margin: 30px;
+}
+
+p {
+	margin-left: 280px;
+	width: 50%;
+}
+
+#contenido ul li {
+	text-align: left;
+	width: 50%;
+}
+
+h2 {
+	text-align: left;
+	margin: 20px;
+}
+
+.img {
+	border-radius: 1rem;
+	float: right;
+	margin-top: -240px;
+	margin-right: 150px;
+}

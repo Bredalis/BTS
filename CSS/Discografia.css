@@ -1,0 +1,52 @@
+
+* {
+	text-align: center;
+}
+
+nav {	
+	background: #e0c3fc;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+div h1 {
+	margin: 30px;
+}
+
+p {
+	margin-left: 280px;
+	width: 50%;
+}
+
+#contenido ul li {
+	text-align: left;
+}
+
+h2 {
+	text-align: left;
+	margin: 20px;
+}
+
+#img1, #img2, #img3, #img4 {
+	border-radius: 1rem;
+	float: right;
+}
+
+#img1 {
+	margin-top: -240px;
+}
+
+#img2 {
+	margin-top: -100px;
+}
+
+#img3 {
+	margin-top: 30px;
+	margin-right: -240px;
+}
+
+#img4 {
+	margin-top: 100px;
+}

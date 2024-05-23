@@ -1,0 +1,27 @@
+
+* {
+	text-align: center;
+}
+
+nav {
+	background: #e0c3fc;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+/* Inicio */
+
+#contenido h1 {
+	margin: 35px;
+}
+
+#contenido img {
+	margin: 30px;
+	border-radius: 1rem;
+}
+
+img {
+	cursor: pointer;
+}

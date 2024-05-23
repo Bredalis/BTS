@@ -1,0 +1,54 @@
+
+* {
+	text-align: center;
+}
+
+nav {	
+	background: #e0c3fc;
+}
+
+#logo {
+	border-radius: 50%;
+}
+
+div h1 {
+	margin: 30px;
+}
+
+div h2 {
+	text-align: left;
+	margin-left: 20rem;
+}
+
+.img {
+	margin: 20px;
+	border-radius: 1rem;
+}
+
+#img {
+	transform: rotate(450deg);
+	margin: -80px;
+	border-radius: 1rem;
+}
+
+p {
+	margin-left: 280px;
+	width: 50%;
+}
+
+table {
+	margin: 30px;
+	margin-left: 160px;
+	border: 1px solid black;
+}
+
+table td {
+	border: 1px solid black;
+	padding: 10px;
+	width: 280px;
+}
+
+table td:hover {
+	background: #e498ff;
+	color: white;
+}
