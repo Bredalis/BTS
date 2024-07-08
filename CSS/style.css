@@ -7,6 +7,14 @@ nav {
 	background: #e0c3fc;
 }
 
+nav a img {
+	transition: transform 0.5s ease;
+}
+
+nav a img:hover {
+	transform: scale(1.2);
+}
+
 #logo {
 	border-radius: 50%;
 }
@@ -24,4 +32,9 @@ nav {
 
 img {
 	cursor: pointer;
+	transition: transform 0.5s ease;
+}
+
+img:hover {
+	transform: scale(1.1);
 }

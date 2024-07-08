@@ -3,8 +3,16 @@
 	text-align: center;
 }
 
-nav {	
+nav, footer {	
 	background: #e0c3fc;
+}
+
+nav a img {
+	transition: transform 0.5s ease;
+}
+
+nav a img:hover {
+	transform: scale(1.2);
 }
 
 #logo {
@@ -34,6 +42,7 @@ div h2 {
 p {
 	margin-left: 280px;
 	width: 50%;
+	text-align: justify;
 }
 
 table {
@@ -51,4 +60,22 @@ table td {
 table td:hover {
 	background: #e498ff;
 	color: white;
+}
+
+.publicacion {
+	text-align: justify;		
+}
+
+footer {
+	position: relative;
+	right: 150px;
+	width: 123.5%;
+	margin-bottom: -16px;
+}
+
+footer p {
+	position: relative;
+	text-align: center;
+	padding: 30px;
+	left: 100px;
 }
