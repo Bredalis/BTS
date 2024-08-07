@@ -18,3 +18,7 @@ function correcta() {
 function incorrecta() {
 	alert("Perdiste :( \nPuedes obtener más información sobre ellos en nuestra página.\n\n¡Descubre más :)!");
 }
+
+function scrollToTop() {
+	window.scrollTo({ top: 0, behavior: "smooth" })
+}
