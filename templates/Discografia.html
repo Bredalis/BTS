@@ -1,0 +1,151 @@
+{% from "Macros.jinja2" import bootstrap, barra_navegacion, footer, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/Discografía</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Discografia.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="contenido-discografia">
+			<h1 class="animacion">✨ Discografía de BTS ✨</h1>
+
+	        <button onclick="scrollToTop()">
+	            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+	        </button>
+
+			<p>
+				BTS tiene una discografía extensa que incluye álbumes de estudio, EPs, sencillos, y colaboraciones. Aquí te proporciono un resumen de su discografía principal hasta mi última actualización en enero de 2022:
+			</p>
+			<br>
+
+			<h2 class="animacion"><span>Álbumes</span> de Estudio:</h2>
+
+			<ul>
+				<li>
+					<strong>2 Cool 4 Skool</strong>
+					(2013)
+				</li>
+				<li>
+					<strong>Dark & Wild</strong>
+					(2014)
+				</li>
+				<li>
+					<strong>WINGS</strong>
+					(2016)
+				</li>
+				<li>
+					<strong>Love Yourself: Tear</strong>
+					(2018)
+				</li>			
+				<li>
+					<strong>Map of the Soul: 7</strong>
+					(2020)
+				</li>			
+				<li>
+					<strong>BE</strong>
+					(2020)
+				</li>
+			</ul>
+
+			<h2 class="animacion">Series <span>"The Most Beautiful Moment in Life"</span> (HYYH):</h2>
+
+			<ul>
+				<li>
+					<strong>The Most Beautiful Moment in Life, Part 1</strong>
+					(2015)
+				</li>
+				<li>
+					<strong>The Most Beautiful Moment in Life, Part 2</strong>
+					(2015)
+				</li>			
+				<li>
+					<strong>The Most Beautiful Moment in Life: Young Forever</strong>
+					(2016)
+				</li>
+			</ul>
+
+			<h2 class="animacion">Series <span>"Love Yourself"</span>:</h2>
+
+			<ul>
+				<li>
+					<strong>Love Yourself: Her</strong>
+					(2017)
+				</li>
+				<li>
+					<strong>Love Yourself: Tear</strong>
+					(2018)
+				</li>
+				<li>
+					<strong>Love Yourself: Answer</strong>
+					(2018)
+				</li>
+			</ul>
+
+			<h2 class="animacion">Otras Versiones y <span>Especiales</span>:</h2>
+
+			<ul>
+				<li>
+					<strong>Skool Luv Affair</strong>
+					(2014) - EP
+				</li>
+				<li>
+					<strong>Young Forever</strong>
+					(2016) - Álbum especial
+				</li>			
+				<li>
+					<strong>You Never Walk Alone</strong>
+					(2017) - Repackage de "WINGS"
+				</li>			
+				<li>
+					<strong>Map of the Soul:</strong>
+					Persona (2019) - EP
+				</li>			
+				<li>
+					<strong>Map of the Soul: 7 - The Journey</strong>
+					(2020) - Álbum japonés
+				</li>
+			</ul>		
+
+			<h2 class="animacion"><span>Sencillos</span> Destacados:</h2>
+
+			<ul>
+				<li>"No More Dream" (2013)</li>
+				<li>"I Need U" (2015)</li>			
+				<li>"Blood Sweat & Tears" (2016)</li>			
+				<li>"DNA" (2017)</li>			
+				<li>"Fake Love" (2018)</li>			
+				<li>"Boy With Luv" (feat. Halsey) (2019)</li>			
+				<li>"Dynamite" (2020)</li>			
+				<li>"Life Goes On" (2020)</li>
+				<li>"Butter" (2021)</li>
+				<li>"Permission to Dance" (2021)</li>
+			</ul>
+			<br><br><br>
+
+			<img class="animacion" id="img1" src="https://i.pinimg.com/236x/c0/bd/ef/c0bdef7b0b2fbe92fc4021e9003a1571.jpg">
+			<img class="animacion" id="img2" src="https://i.pinimg.com/236x/65/62/04/656204cb2faa396cb6d1403be8b6f083.jpg">
+			<img class="animacion" id="img3" src="https://i.pinimg.com/236x/c0/21/db/c021dbadd4ad9ee2f90302473ffb44da.jpg">
+			<img class="animacion" id="img4" src="https://i.pinimg.com/236x/19/c1/ef/19c1ef095b4baec9ca3fc252971ee5d8.jpg">
+			<br><br><br>
+
+			<p>
+				Además de estos lanzamientos principales, BTS ha realizado colaboraciones, sencillos especiales, mixtapes en solitario y otros proyectos musicales que han contribuido significativamente a su amplia y variada discografía.
+			</p>
+			<br>
+		</div>
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}		
+</body>
+</html>

@@ -1,0 +1,136 @@
+{% from "Macros.jinja2" import barra_navegacion, footer, bootstrap, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/RM</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+			<h1 class="animacion">✨ Kim Namjoon ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>		
+
+			<p>Aquí tienes información sobre RM (Kim Namjoon) de BTS:</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Kim Namjoon</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>12 de septiembre de 1994</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Ilsan-gu, Goyang, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Líder, rapero principal y compositor del grupo.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.81 metros</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+
+		<div class="segundo-contenido">
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3>Líder de <span>BTS</span>:</h3>
+
+			<ul>
+				<li>
+					RM es el líder de BTS y desempeña un papel fundamental en el grupo, liderando y representando al equipo en diversas ocasiones.
+				</li>
+				<li>
+					Su capacidad para unir al grupo y tomar decisiones importantes ha sido fundamental para el éxito y la cohesión del grupo.
+				</li>
+			</ul>
+
+			<img class="img1" src="https://i.pinimg.com/236x/f5/73/d1/f573d119876032618beeb4ac92fe2700.jpg">
+
+			<h3><span>Rapero</span> y Letrista:</h3>
+
+			<ul>
+				<li>
+					Ha participado activamente en la escritura y composición de canciones de BTS, contribuyendo con letras significativas a la música del grupo.
+				</li>
+				<li>
+					Es conocido por su habilidad como rapero, con letras reflexivas y profundas en sus versos.
+				</li>
+			</ul>
+			<img class="img2" src="https://i.pinimg.com/236x/95/89/19/95891992f6ba566c4a23f5fe7e5211c8.jpg">
+
+			<h3>Mensajes Significativos en la <span>Música</span>:</h3>
+
+			<ul>
+				<li>
+					Las letras de RM a menudo abordan temas importantes como la autoaceptación, el amor propio, la sociedad y la filosofía.
+				</li>
+	 			<li>
+					Ha sido elogiado por su capacidad para transmitir mensajes poderosos y reflexivos a través de su música.
+				</li>
+			</ul>
+
+			<h3><span>Participación</span> en la Producción:</h3>
+
+			<ul>
+				<li>
+					Además de su habilidad como rapero, RM ha estado involucrado en la producción y composición de canciones para BTS.
+				</li>
+				<li>
+					Su creatividad y visión artística han influido en el sonido y la dirección musical del grupo.
+				</li>
+			</ul>
+
+			<h3>Personalidad y <span>Filosofía</span>:</h3>
+
+			<ul>
+				<li>Es conocido por su intelecto, perspicacia y amor por la filosofía.</li>
+				<li>
+					Ha sido elogiado por su sinceridad y transparencia al hablar sobre diversos temas, conectando con los fans a través de sus pensamientos y experiencias.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					RM es fluido en varios idiomas, incluyendo inglés y japonés, además de su lengua materna, el coreano. A menudo se le ve interpretando para los miembros durante entrevistas en inglés.
+				</li>
+				<li>
+					Es un ávido lector y a menudo comparte recomendaciones de libros con los fans. Su amor por la lectura ha influenciado sus letras y su perspectiva artística.
+				</li>
+			</ul>
+
+			<br><br>
+			<p>
+				RM, con su liderazgo, habilidades como rapero y compositor, así como su filosofía profunda, ha sido un pilar central en BTS, aportando tanto a la música del grupo como a su impacto en la cultura pop.
+			</p>
+			<br>
+		</div>			
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}		
+</body>
+</html>

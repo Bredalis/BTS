@@ -1,0 +1,128 @@
+{% from "Macros.jinja2" import barra_navegacion, footer, bootstrap, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/SUGA</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+			<h1 class="animacion">✨ Min Yoongi ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>		
+
+			<p>Aquí tienes información sobre Suga (Min Yoongi) de BTS:</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Min Yoongi</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>9 de marzo de 1993</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Daegu, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Rapero principal y productor musical.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.74 metros</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+		
+		<div class="segundo-contenido">
+
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3><span>Rapero</span> y Productor Musical:</h3>
+
+			<ul>
+				<li>
+					Suga es conocido por su habilidad como rapero, con letras profundas y un estilo distintivo en sus versos.
+				</li>
+				<li>
+					Ha participado activamente en la producción musical de BTS, contribuyendo con letras y producción en muchas de sus canciones.
+				</li>
+			</ul>
+
+			<img class="img1" src="https://i.pinimg.com/236x/69/22/64/6922647c9b5876763a4f297eb614de56.jpg">
+
+			<h3>Mixtape <span>"Agust D"</span>:</h3>
+
+			<ul>
+				<li>
+					En su carrera en solitario, lanzó un mixtape bajo el nombre de "Agust D", mostrando su habilidad como rapero y productor.
+				</li>
+				<li>
+					El mixtape recibió elogios por su honestidad y contenido lírico crudo y reflexivo.
+				</li>
+			</ul>
+			<img class="img2" src="https://i.pinimg.com/236x/61/4b/3a/614b3a2a80d05e03f66010526655642a.jpg">
+
+			<h3><span>Sinceridad</span> y Mensajes Auténticos:</h3>
+
+			<ul>
+				<li>
+					Suga ha sido elogiado por su sinceridad en su música, abordando temas personales, sociales y emocionales en sus letras.
+				</li>
+	 			<li>
+					Su honestidad sobre sus propias luchas y experiencias ha conectado profundamente con los fans.
+				</li>
+			</ul>
+
+			<h3>Personalidad Reservada y Enfoque en la <span>Música</span>:</h3>
+
+			<ul>
+				<li>
+					Es conocido por ser más reservado y reflexivo en comparación con algunos de los otros miembros.
+				</li>
+				<li>
+					Su enfoque en la música y su dedicación a su arte son aspectos destacados de su personalidad.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					Antes de debutar con BTS, Suga producía música underground bajo el nombre de "Gloss". Posteriormente, su habilidad para la producción se destacó en BTS, participando en la creación de varias canciones del grupo.
+				</li>
+				<li>
+					Suga es un escritor talentoso y disfruta mucho escribir letras de canciones. Ha hablado abiertamente sobre su amor por la escritura y su proceso creativo.
+				</li>
+			</ul>
+
+			<br><br><br><br>
+			<p>
+				Suga, con su talento como rapero, su habilidad en la producción musical y su sinceridad en la expresión artística, ha dejado una marca significativa tanto en BTS como en la industria musical en general.
+			</p>
+			<br>			
+		</div>
+	</main>
+
+	{{ footer() }}	
+	{{ scripts() }}		
+</body>
+</html>

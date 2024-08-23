@@ -1,0 +1,129 @@
+{% from "Macros.jinja2" import bootstrap, barra_navegacion, footer, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/J-HOPE</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+		
+			<h1 class="animacion">✨ Jung Hoseok ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>		
+
+			<p>Aquí está más información sobre J-Hope (Jung Hoseok) de BTS:</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Jung Hoseok</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>18 de febrero de 1994</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Gwangju, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Rapero principal, bailarín principal y sub-vocalista.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.77 metros</td>
+				</tr>
+			</table>
+			<br>			
+		</div>
+
+		<div class="segundo-contenido">
+
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3>Habilidades en el <span>Rap</span> y el <span>Baile</span>:</h3>
+
+			<ul>
+				<li>
+					Es conocido por su habilidad como rapero, con un estilo distintivo y versátil.
+				</li>
+				<li>
+					También es uno de los principales bailarines del grupo, contribuyendo a la coreografía y siendo un punto focal en las actuaciones.
+				</li>
+			</ul>
+
+			<img class="img1" src="https://i.pinimg.com/236x/32/91/b5/3291b57d2612af71f190a448dba0c51c.jpg">
+
+			<h3><span>Energía</span> y <span>Carisma</span> en el Escenario:</h3>
+
+			<ul>
+				<li>
+					J-Hope es reconocido por su energía explosiva en el escenario, aportando vitalidad y dinamismo a las presentaciones de BTS.
+				</li>
+				<li>
+					Su carisma y habilidad para involucrar al público son aspectos destacados durante las actuaciones en vivo.
+				</li>
+			</ul>
+			<img class="img2" src="https://i.pinimg.com/236x/54/f7/a5/54f7a5d77cb149f97c92c35dfc383944.jpg">
+
+			<h3>Mixtape <span>"Hope World"</span>:</h3>
+
+			<ul>
+				<li>
+					En 2018, lanzó su mixtape en solitario titulado "Hope World", que recibió elogios por su creatividad y estilo distintivo.
+				</li>
+	 			<li>
+					Este trabajo muestra la versatilidad de J-Hope como artista, explorando diferentes géneros y estilos musicales.
+				</li>
+			</ul>
+
+			<h3>Personalidad y <span>Actitudes</span> Positivas:</h3>
+
+			<ul>
+				<li>
+					Es reconocido por su personalidad alegre, optimista y su capacidad para levantar el ánimo de los demás.
+				</li>
+				<li>
+					Fuera del escenario, ha sido elogiado por su generosidad y compromiso con causas sociales.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					Antes de unirse a BTS, J-Hope fue un bailarín callejero conocido por sus habilidades en varios estilos de baile, desde el popping hasta el breaking.
+				</li>
+				<li>
+					Es conocido por su amor por los animales, especialmente los perros. En varias ocasiones ha expresado su deseo de tener una tienda de mascotas si no fuera cantante.
+				</li>
+			</ul>
+
+			<br><br><br><br><br>
+			<p>
+				J-Hope, con su habilidad en el rap, su destreza en el baile y su energía en el escenario, es un miembro integral de BTS, aportando su talento y personalidad única al grupo.
+			</p>
+			<br>
+		</div>
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}		
+</body>
+</html>

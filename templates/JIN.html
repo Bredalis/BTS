@@ -1,0 +1,131 @@
+{% from "Macros.jinja2" import bootstrap, barra_navegacion, footer, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/JIN</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+			<h1 class="animacion">✨ Kim Seokjin ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>
+
+			<p>Aquí tienes información sobre Jin (Kim Seokjin) de BTS:</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Kim Seokjin</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>4 de diciembre de 1992</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Gwacheon, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Vocalista y visual del grupo.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.78 metros</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+
+		<div class="segundo-contenido">
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3><span>Vocalista</span> Principal:</h3>
+
+			<ul>
+				<li>
+					Jin es el vocalista principal de BTS, conocido por su voz suave y melodiosa.
+				</li>
+				<li>
+					Ha mostrado su habilidad en una amplia gama de canciones, aportando armonías y tonos característicos a las interpretaciones del grupo.
+				</li>
+			</ul>
+
+			<img class="img1" src="https://i.pinimg.com/236x/98/70/91/98709121951b7771b42463d72d46354b.jpg">
+
+			<h3>Visual del <span>Grupo</span>:</h3>
+
+			<ul>
+				<li>
+					Es reconocido como el "visual" de BTS debido a su atractivo físico y carisma en pantalla.
+				</li>
+				<li>Su apariencia ha sido elogiada y ha sido embajador de marcas de moda y belleza.</li>
+			</ul>
+			<img class="img2" src="https://i.pinimg.com/236x/76/1a/b0/761ab0fea092950ecca92026e4192b2c.jpg">
+
+			<h3><span>Actuaciones</span> y Presencia <span>Escénica</span>:</h3>
+
+			<ul>
+				<li>
+					Aporta un carisma único a las actuaciones del grupo, con movimientos elegantes y expresivos en el escenario.
+				</li>
+	 			<li>
+					Es conocido por su capacidad para conectar con el público durante las presentaciones en vivo.
+				</li>
+			</ul>
+
+			<h3>Participación en la Producción:</h3>
+
+			<ul>
+				<li>
+					Si bien es reconocido principalmente como vocalista, también ha estado involucrado en la composición y producción de algunas canciones de BTS.
+				</li>
+			</ul>
+
+			<h3><span>Personalidad</span> y Características:</h3>
+
+			<ul>
+				<li>Jin es conocido por su sentido del humor y su personalidad extrovertida.</li>
+				<li>
+					Ha compartido su amor por la cocina y ha participado en programas de cocina, mostrando sus habilidades culinarias.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					Jin es conocido por su talento en la cocina. Incluso ha compartido videos de él cocinando en su propio programa de variedades, y en más de una ocasión ha mencionado que le gustaría abrir su propio restaurante en el futuro.
+				</li>
+				<li>
+					Recibió el apodo de "Car Door Guy" después de un incidente en los Billboard Music Awards 2018, donde su aspecto al salir de un automóvil llamó la atención de muchos, convirtiéndolo en tendencia mundial.
+				</li>
+			</ul>
+
+			<br><br>
+			<p>
+				Jin, con su voz distintiva, su carisma en el escenario y su presencia como el "visual" de BTS, ha contribuido significativamente al éxito del grupo y ha dejado una impresión duradera en los fans.
+			</p>
+			<br>
+		</div>
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}		
+</body>
+</html>

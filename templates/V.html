@@ -1,0 +1,127 @@
+{% from "Macros.jinja2" import barra_navegacion, footer, bootstrap, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/V</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+			<h1 class="animacion">✨ Kim Taehyung ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>
+			
+			<p>Kim Taehyung, conocido como V, es un miembro carismático y talentoso de BTS. Aquí te presento su perfil:</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Kim Taehyung</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>30 de diciembre de 1995</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Daegu, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Vocalista, bailarín y visual del grupo.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.78 metros</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+			
+		<div class="segundo-contenido">
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3><span>Voz</span> y Estilo Vocal Único:</h3>
+
+			<ul>
+				<li>
+					V es conocido por su distintiva voz grave y rica, que añade una dimensión única a las canciones de BTS.
+				</li>
+				<li>
+					Ha demostrado su versatilidad vocal en una variedad de géneros, desde baladas hasta canciones más enérgicas.
+				</li>
+			</ul>
+
+			<img class="img1" src="https://i.pinimg.com/236x/88/e6/ad/88e6ad683e47426103d35fc904e161ac.jpg">
+
+			<h3>Talento en <span>Actuación</span>:</h3>
+
+			<ul>
+				<li>
+					Ha incursionado en la actuación, participando en dramas como "Hwarang" y mostrando sus habilidades en este campo.
+				</li>
+			</ul>
+			<img class="img2" src="https://i.pinimg.com/236x/e6/18/c4/e618c4e40561d9fc0307c012ab4266a9.jpg">
+
+			<h3>Presencia <span>Escénica</span> y <span>Carisma</span>:</h3>
+
+			<ul>
+				<li>
+					V tiene una presencia en el escenario impactante y un carisma que atrae la atención del público.
+				</li>
+				<li>
+					Es conocido por su estilo único y por ser considerado un "visual" en la industria del entretenimiento coreano.
+				</li>
+			</ul>
+
+			<h3><span>Intereses</span> y Personalidad:</h3>
+
+			<ul>
+				<li>
+					Tiene varios intereses creativos, incluyendo la fotografía y la composición.
+				</li>
+				<li>
+					Es reconocido por su personalidad amable, alegre y su capacidad para hacer reír a los demás.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					Su amor por la moda y su estilo distintivo lo han llevado a ser embajador de marcas y a estar presente en eventos de moda.
+				</li>
+				<li>
+					Ha lanzado canciones en solitario, como "Stigma" y "Singularity", mostrando su talento en la música fuera de las actividades de BTS.
+				</li>
+				<li>
+					V ha expresado su amor por los animales y se le ha visto interactuando con mascotas en varios programas y redes sociales.
+				</li>
+			</ul>
+
+			<br><br>
+			<p>
+				Kim Taehyung, conocido como V, ha dejado una impresión duradera en el mundo del entretenimiento no solo por su talento musical, sino también por su carisma, estilo y habilidades en diversos campos artísticos.
+			</p>
+			<br>
+		</div>
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}		
+</body>
+</html>

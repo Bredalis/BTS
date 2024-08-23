@@ -1,0 +1,132 @@
+{% from "Macros.jinja2" import bootstrap, barra_navegacion, footer, scripts %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BangtanStoryline/JIMIN</title>
+	<link rel="shortcut icon" href="https://i.pinimg.com/564x/b0/c0/d2/b0c0d2df10c4a5ba13c45c09b2b89677.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="{{ url_for('static', filename='CSS/Integrantes.css') }}">
+
+	<!-- BootStrap -->
+	{{ bootstrap() }}
+</head>
+<body>
+	{{ barra_navegacion() }}
+
+	<main class="container">
+		<div class="primer-contenido">
+			<h1 class="animacion">✨ Park Jimin ✨</h1>
+
+			<button onclick="scrollToTop()">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 12V16H11V12H8L12 8L16 12H13Z"></path></svg>
+			</button>		
+
+			<p>
+				Park Jimin es un miembro destacado de BTS, conocido por su talento en el baile, su voz melodiosa y su encanto en el escenario. Aquí tienes información sobre él:
+			</p>
+			<br>
+
+			<h2 class="animacion">Información <span>Personal</span></h2>
+
+			<table>
+				<tr>
+					<th>Nombre Completo</th>
+					<td>Park Jimin</td>
+				</tr>
+				<tr>
+					<th>Fecha de Nacimiento</th>
+					<td>13 de octubre de 1995</td>
+				</tr>
+				<tr>
+					<th>Lugar de Nacimiento</th>
+					<td>Busan, Corea del Sur</td>
+				</tr>
+				<tr>
+					<th>Posición en BTS</th>
+					<td>Vocalista principal y bailarín principal del grupo.</td>
+				</tr>
+				<tr>
+					<th>Altura</th>
+					<td>Aproximadamente 1.75 metros</td>
+				</tr>
+			</table>
+			<br>
+		</div>
+
+		<div class="segundo-contenido">
+			<h2 class="animacion">Aspectos Destacados:</h2>
+			<h3>Destreza en el <span>Baile</span>:</h3>
+
+			<ul>
+				<li>
+					Es reconocido como uno de los mejores bailarines de BTS, con movimientos precisos y expresivos que complementan las actuaciones del grupo.
+				</li>
+				<li>
+					Ha demostrado su habilidad en una amplia gama de estilos de baile, desde contemporáneo hasta hip-hop.
+				</li>
+			</ul>
+
+			<img id="img1" src="https://i.pinimg.com/236x/c5/89/69/c58969c0461b210dff13d4b4b1249a17.jpg">
+
+			<h3>Voz <span>Suave</span> y <span>Potente</span>:</h3>
+
+			<ul>
+				<li>
+					Jimin es el vocalista principal y se destaca por su voz versátil, capaz de transmitir emociones con gran habilidad.
+				</li>
+				<li>
+					Su tono suave y potente es una parte integral de las armonías de BTS.
+				</li>
+			</ul>			
+			<img id="img2" src="https://i.pinimg.com/236x/c0/19/56/c019569df6bb5c852ae6e7f34633b115.jpg">
+
+			<h3><span>Carisma</span> en el Escenario:</h3>
+
+			<ul>
+				<li>
+					Tiene una presencia magnética en el escenario y un carisma que cautiva a los espectadores.
+				</li>
+				<li>
+					Es conocido por su expresividad y emotividad al interpretar las canciones.
+				</li>
+			</ul>
+
+			<h3>Personalidad y <span>Características</span>:</h3>
+
+			<ul>
+				<li>
+					Es reconocido por su amabilidad, preocupación por los demás y su actitud positiva.
+				</li>
+				<li>
+					A lo largo de su carrera, ha hablado abiertamente sobre temas de salud mental, inspirando a muchos fans con su sinceridad.
+				</li>
+			</ul>
+
+			<h2 class="animacion">Curiosidades:</h2>
+
+			<ul>
+				<li>
+					Ha lanzado canciones en solitario, como "Lie" y "Serendipity", que muestran su talento vocal y artístico.
+				</li>
+				<li>
+					Su enfoque en el bienestar físico y mental lo ha llevado a promover un estilo de vida saludable.
+				</li>
+				<li>
+					Es conocido por su cercanía con los miembros del grupo y por su capacidad para crear un ambiente positivo dentro de BTS.
+				</li>
+			</ul>
+
+			<br><br>
+			<p>
+				Jimin, con su talento en el baile, su voz emotiva y su personalidad carismática, ha dejado una marca indeleble en la música y en el corazón de los seguidores de BTS en todo el mundo.
+			</p>
+			<br> 
+		</div>
+	</main>
+
+	{{ footer() }}
+	{{ scripts() }}	
+</body>
+</html>
