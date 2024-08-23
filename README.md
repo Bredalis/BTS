@@ -39,13 +39,7 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
       pip install -r requirements.txt
       ```
 
-3. **Configurar Variables de Entorno**
-    - Crea un archivo `.env` en la raíz del proyecto con la siguiente configuración:
-      ```ini
-      CLAVE_MONGO=your_mongodb_connection_string
-      ```
-
-4. **Ejecutar el Servidor**
+3. **Ejecutar el Servidor**
     ```bash
     python App.py
     ```
@@ -61,6 +55,7 @@ Para ver en pantalla la página solo debes seguir estos pasos:
 3. 🔧 Ejecutar el Servidor en la terminal:
     ```bash
     python App.py
+    ```
 
 ## Licencia 📜
 
