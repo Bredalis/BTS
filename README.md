@@ -14,6 +14,9 @@
 <a href="https://pypi.org/project/Flask/" target="_blank">
   <img src="https://img.shields.io/badge/Flask-707b7c">
 </a>
+<a href="#">
+    <img src="https://img.shields.io/badge/Jinja-E74C3C">
+</a>
 <br><br>
 
 <img src="https://i.pinimg.com/236x/ad/55/15/ad55157603e22ef47155ff59a7f7310e.jpg">
