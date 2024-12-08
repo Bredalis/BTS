@@ -18,7 +18,7 @@ button {
     width: 10%;
     position: fixed;
     margin-left: -40%;
-    border: none;  
+    border: none;
     cursor: pointer;  
 }
 
@@ -88,7 +88,7 @@ footer p {
     margin-bottom: -10px;
 }
 
-/* Animacion */
+/* Animación */
 @keyframes slide-up {
     to {
         opacity: 1;

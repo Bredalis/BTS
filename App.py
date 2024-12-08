@@ -3,20 +3,19 @@ from flask import Flask, render_template
 from jinja2 import TemplateNotFound
 
 def pagina_bts():
-
     app = Flask(__name__)
 
     @app.route("/")
     def index():
         return render_template("index.html")
 
-    @app.route("/Biografia_Y_Cronologia")
+    @app.route("/biografia-y-cronologia")
     def biografia_y_cronologia():
         return render_template("Biografia_Y_Cronologia.html")
 
-    @app.route("/Logros_Y_Premios")
+    @app.route("/logros-y-premios")
     def logros_y_premios():
-        return render_template("Logros_Y_Premios.html")
+        return render_template("Logros_Y_premios.html")
 
     @app.route("/<nombre_integrante>")
     def integrantes(nombre_integrante):
@@ -25,7 +24,7 @@ def pagina_bts():
         except TemplateNotFound:
             return render_template("404.html"), 404
     
-    @app.route("/Discografia")
+    @app.route("/discografia")
     def discografia():
         return render_template("Discografia.html")
 
