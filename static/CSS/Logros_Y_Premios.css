@@ -109,7 +109,7 @@ footer p {
     margin-bottom: -10px;
 }
 
-/* Animacion */
+/* Animación */
 @keyframes slide-up {
     to {
         opacity: 1;
