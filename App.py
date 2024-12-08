@@ -9,13 +9,13 @@ def pagina_bts():
     def index():
         return render_template("index.html")
 
-    @app.route("/biografia-y-cronologia")
+    @app.route("/biografía-y-cronología")
     def biografia_y_cronologia():
         return render_template("Biografia_Y_Cronologia.html")
 
     @app.route("/logros-y-premios")
     def logros_y_premios():
-        return render_template("Logros_Y_premios.html")
+        return render_template("Logros_Y_Premios.html")
 
     @app.route("/<nombre_integrante>")
     def integrantes(nombre_integrante):
@@ -24,7 +24,7 @@ def pagina_bts():
         except TemplateNotFound:
             return render_template("404.html"), 404
     
-    @app.route("/discografia")
+    @app.route("/discografía")
     def discografia():
         return render_template("Discografia.html")
 
